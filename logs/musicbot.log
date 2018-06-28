@@ -1,0 +1,139 @@
+[137.006759644] 2018-06-27 18:46:11,181 - INFO - launcher: Starting sanity checks
+[139.049768448] 2018-06-27 18:46:11,183 - INFO - launcher: Checking for Python 3.5+
+[140.048027039] 2018-06-27 18:46:11,184 - INFO - launcher: Checking console encoding
+[141.007423401] 2018-06-27 18:46:11,185 - INFO - launcher: Setting console encoding to UTF-8
+[142.010688782] 2018-06-27 18:46:11,186 - INFO - launcher: Ensuring we're in the right environment
+[150.014638901] 2018-06-27 18:46:11,194 - INFO - launcher: Adding local bins/ folder to path
+[154.015302658] 2018-06-27 18:46:11,198 - INFO - launcher: Required checks passed.
+[156.951904297] 2018-06-27 18:46:11,201 - INFO - launcher: Optional checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[4.6926968097686768] 2018-06-27 18:46:15,737 - WARNING - musicbot.config | In config.py::MainThread(8664), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[4.6946961879730225] 2018-06-27 18:46:15,739 - INFO - musicbot.config | In config.py::MainThread(8664), line 123 in run_checks: Using i18n: config/i18n/en.json
+[4.6976976394653320] 2018-06-27 18:46:15,742 - WARNING - musicbot.config | In config.py::MainThread(8664), line 206 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[4.7016980648040771] 2018-06-27 18:46:15,746 - WARNING - musicbot.config | In config.py::MainThread(8664), line 206 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[4.7737011909484863] 2018-06-27 18:46:15,818 - DEBUG - musicbot.config | In config.py::MainThread(8664), line 291 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[4.7826981544494629] 2018-06-27 18:46:15,827 - DEBUG - musicbot.json | In json.py::MainThread(8664), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[6.0999402999877930] 2018-06-27 18:46:17,144 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 227 in _setup_logging: Set logging level to INFO
+[6.1009404659271240] 2018-06-27 18:46:17,145 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 84 in __init__: Starting MusicBot 1.9.7
+[6.1049387454986572] 2018-06-27 18:46:17,149 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[10.6269280910491943] 2018-06-27 18:46:21,671 - DEBUG - musicbot.spotify | In spotify.py::MainThread(8664), line 70 in get_token: Created a new access token: {'access_token': 'BQBudXlAc8KhRauBq2eOmfuwRnl-Aq24hGtxqz-L3l-9h485URPoht_uiK_U2SGQwBKHAd5DSpvLufbeprg', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1530146781}
+[10.6279251575469971] 2018-06-27 18:46:21,672 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 115 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[15.6377046108245850] 2018-06-27 18:46:26,682 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 1074 in on_ready: Connection established, ready to go.
+[15.6387023925781250] 2018-06-27 18:46:26,683 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 339 in _cache_app_info: Caching app info
+[15.9970626831054688] 2018-06-27 18:46:27,041 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[16.0180535316467285] 2018-06-27 18:46:27,062 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 905 in _scheck_server_permissions: Checking server permissions
+[16.0180535316467285] 2018-06-27 18:46:27,062 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[16.0190584659576416] 2018-06-27 18:46:27,063 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 913 in _scheck_configs: Validating config
+[16.0190584659576416] 2018-06-27 18:46:27,063 - DEBUG - musicbot.config | In config.py::MainThread(8664), line 212 in async_validate: Validating options...
+[16.0200538635253906] 2018-06-27 18:46:27,064 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 916 in _scheck_configs: Validating permissions config
+[16.0200538635253906] 2018-06-27 18:46:27,064 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8664), line 64 in async_validate: Validating permissions...
+[16.0210547447204590] 2018-06-27 18:46:27,065 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1091 in on_ready: Connected: 461580637036478464/Michael Jackson#6648
+[16.0250585079193115] 2018-06-27 18:46:27,069 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1099 in on_ready: Owner:     339301474116829204/Saiko Padorono#6833
+
+[16.0260610580444336] 2018-06-27 18:46:27,070 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1102 in on_ready: Server List:
+[16.0280597209930420] 2018-06-27 18:46:27,072 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1105 in on_ready:  - CC United
+[16.0300552845001221] 2018-06-27 18:46:27,074 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1151 in on_ready: Not bound to any text channels
+[16.0720560550689697] 2018-06-27 18:46:27,116 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1177 in on_ready: Not autojoining any voice channels
+[290.4221396446228027] 2018-06-27 18:51:01,466 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 2938 in on_voice_state_update: Voice state update for 339301474116829204/Saiko Padorono#6833 on CC United/Music -> [CONNECT]
+[357.8224895000457764] 2018-06-27 18:52:08,866 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !help
+[387.5012140274047852] 2018-06-27 18:52:38,545 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !summon
+[387.6007320880889893] 2018-06-27 18:52:38,645 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2019 in cmd_summon: Joining CC United/Music
+[387.6167304515838623] 2018-06-27 18:52:38,661 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 452 in get_voice_client: Connection attempt 1 to Music
+[387.6172323226928711] 2018-06-27 18:52:38,661 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[387.6227295398712158] 2018-06-27 18:52:38,667 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[387.6247313022613525] 2018-06-27 18:52:38,669 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[387.8317639827728271] 2018-06-27 18:52:38,876 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 2938 in on_voice_state_update: Voice state update for 461580637036478464/Michael Jackson#6648 on CC United/Music -> [JOIN, CONNECT]
+[387.8327665328979492] 2018-06-27 18:52:38,877 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2949 in on_voice_state_update: 461580637036478464/Michael Jackson#6648 has joined CC United/Music
+[387.8627696037292480] 2018-06-27 18:52:38,907 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[387.8722696304321289] 2018-06-27 18:52:38,916 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[388.8834481239318848] 2018-06-27 18:52:39,927 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[388.8844463825225830] 2018-06-27 18:52:39,928 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 478 in get_voice_client: Connected in 1.3s
+[388.8864426612854004] 2018-06-27 18:52:39,930 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 479 in get_voice_client: Connected to CC United/Music
+[388.8979494571685791] 2018-06-27 18:52:39,942 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[388.9714562892913818] 2018-06-27 18:52:40,015 - VOICEDEBUG - musicbot.player | In player.py::MainThread(8664), line 373 in websocket_check: Starting websocket check loop for CC United
+[399.8570389747619629] 2018-06-27 18:52:50,901 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !play deep throat
+[400.9041705131530762] 2018-06-27 18:52:51,948 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:deep throat', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'deep throat', 'webpage_url_basename': 'deep throat', 'extractor_key': 'Generic'}
+[415.4529044628143311] 2018-06-27 18:53:06,497 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[415.5874195098876953] 2018-06-27 18:53:06,631 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 220 in _really_download: Download started: https://youtube.com/watch?v=fyRwfUw7ayg
+[417.4666965007781982] 2018-06-27 18:53:08,511 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[421.6902844905853271] 2018-06-27 18:53:12,734 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[421.7017824649810791] 2018-06-27 18:53:12,746 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 356255103633719296
+[421.8227975368499756] 2018-06-27 18:53:12,867 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=e-Zcz9J1UOs
+[436.9564108848571777] 2018-06-27 18:53:28,000 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 230 in _really_download: Download complete: https://youtube.com/watch?v=fyRwfUw7ayg
+[436.9744141101837158] 2018-06-27 18:53:28,018 - FFMPEG - musicbot.player | In player.py::MainThread(8664), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-fyRwfUw7ayg-W.A.S.P._-_Babylon_s_Burning.webm
+[439.8724608421325684] 2018-06-27 18:53:30,916 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 356255103633719296
+[443.6439223289489746] 2018-06-27 18:53:34,688 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=e-Zcz9J1UOs
+[457.7442314624786377] 2018-06-27 18:53:48,788 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !skip
+[457.8487441539764404] 2018-06-27 18:53:48,893 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for audio_cache\youtube-e-Zcz9J1UOs-Deepthroat.webm
+[457.8627450466156006] 2018-06-27 18:53:48,907 - FFMPEG - musicbot.player | In player.py::MainThread(8664), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-e-Zcz9J1UOs-Deepthroat.webm
+[458.0232665538787842] 2018-06-27 18:53:49,067 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 356255103633719296
+[458.0952720642089844] 2018-06-27 18:53:49,139 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 356255103633719296
+[473.4400007724761963] 2018-06-27 18:54:04,484 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !skip
+[487.4392309188842773] 2018-06-27 18:54:18,483 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[487.4412312507629395] 2018-06-27 18:54:18,485 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 220 in _really_download: Download started: https://youtube.com/watch?v=Y4UZROmf3GQ
+[489.4480609893798828] 2018-06-27 18:54:20,492 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[506.1205382347106934] 2018-06-27 18:54:37,164 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 230 in _really_download: Download complete: https://youtube.com/watch?v=Y4UZROmf3GQ
+[506.6276047229766846] 2018-06-27 18:54:37,671 - FFMPEG - musicbot.player | In player.py::MainThread(8664), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Y4UZROmf3GQ-Turn_Off_The_Stars_-_Brightside.webm
+[508.1297912597656250] 2018-06-27 18:54:39,174 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 356255103633719296
+[539.5950455665588379] 2018-06-27 18:55:10,639 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !skip
+[555.8984127044677734] 2018-06-27 18:55:26,942 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[555.9024133682250977] 2018-06-27 18:55:26,946 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 220 in _really_download: Download started: https://youtube.com/watch?v=6TZvzU1MPM4
+[557.8971695899963379] 2018-06-27 18:55:28,941 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[562.2949619293212891] 2018-06-27 18:55:33,339 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 2938 in on_voice_state_update: Voice state update for 339301474116829204/Saiko Padorono#6833 on CC United/Music -> [LEAVE, DISCONNECT]
+[562.2959628105163574] 2018-06-27 18:55:33,340 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2949 in on_voice_state_update: 339301474116829204/Saiko Padorono#6833 has left CC United/Music
+[571.3301496505737305] 2018-06-27 18:55:42,374 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 230 in _really_download: Download complete: https://youtube.com/watch?v=6TZvzU1MPM4
+[571.3511524200439453] 2018-06-27 18:55:42,395 - FFMPEG - musicbot.player | In player.py::MainThread(8664), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-6TZvzU1MPM4-Brooke_Eden_Daddy_s_Money_Full_Song_Audio.webm
+[571.4680809974670410] 2018-06-27 18:55:42,512 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 666 in _autopause: Player finished playing, autopaused in empty channel
+[571.5181548595428467] 2018-06-27 18:55:42,562 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 356255103633719296
+[692.3707058429718018] 2018-06-27 18:57:43,415 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 3012 in on_server_join: Bot has been joined server: #KageNation
+[692.3767082691192627] 2018-06-27 18:57:43,421 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 3025 in on_server_join: Creating data folder for server 434758772771258368
+[706.5417866706848145] 2018-06-27 18:57:57,586 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 2938 in on_voice_state_update: Voice state update for 339301474116829204/Saiko Padorono#6833 on #KageNation/Radio 1 -> [CONNECT, MUTE]
+[707.5848388671875000] 2018-06-27 18:57:58,629 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 2938 in on_voice_state_update: Voice state update for 339301474116829204/Saiko Padorono#6833 on #KageNation/Radio 1 -> [MUTE]
+[719.1884839534759521] 2018-06-27 18:58:10,232 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !summon
+[719.2734959125518799] 2018-06-27 18:58:10,317 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2019 in cmd_summon: Joining #KageNation/Radio 1
+[719.2789947986602783] 2018-06-27 18:58:10,323 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 452 in get_voice_client: Connection attempt 1 to Radio 1
+[719.2804961204528809] 2018-06-27 18:58:10,324 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[719.2814946174621582] 2018-06-27 18:58:10,325 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[719.2854974269866943] 2018-06-27 18:58:10,329 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[719.4590213298797607] 2018-06-27 18:58:10,503 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 2938 in on_voice_state_update: Voice state update for 461580637036478464/Michael Jackson#6648 on #KageNation/Radio 1 -> [JOIN, CONNECT]
+[719.4610190391540527] 2018-06-27 18:58:10,505 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2949 in on_voice_state_update: 461580637036478464/Michael Jackson#6648 has joined #KageNation/Radio 1
+[719.5680325031280518] 2018-06-27 18:58:10,612 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[719.5830335617065430] 2018-06-27 18:58:10,627 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[720.8873000144958496] 2018-06-27 18:58:11,931 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[720.8877990245819092] 2018-06-27 18:58:11,932 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 478 in get_voice_client: Connected in 1.6s
+[720.8882994651794434] 2018-06-27 18:58:11,932 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 479 in get_voice_client: Connected to #KageNation/Radio 1
+[720.8947975635528564] 2018-06-27 18:58:11,939 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[720.9148015975952148] 2018-06-27 18:58:11,959 - VOICEDEBUG - musicbot.player | In player.py::MainThread(8664), line 373 in websocket_check: Starting websocket check loop for #KageNation
+[727.2543268203735352] 2018-06-27 18:58:18,298 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[727.2688283920288086] 2018-06-27 18:58:18,313 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 220 in _really_download: Download started: https://youtube.com/watch?v=hImf920RCGI
+[729.2533218860626221] 2018-06-27 18:58:20,297 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[732.6867868900299072] 2018-06-27 18:58:23,731 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !play deep throat
+[733.0654883384704590] 2018-06-27 18:58:24,109 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:deep throat', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'deep throat', 'webpage_url_basename': 'deep throat', 'extractor_key': 'Generic'}
+[737.3110003471374512] 2018-06-27 18:58:28,355 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 2938 in on_voice_state_update: Voice state update for 222814065926471680/Michael Jackson#4266 on #KageNation/Radio 1 -> [JOIN, CONNECT]
+[737.3120012283325195] 2018-06-27 18:58:28,356 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2949 in on_voice_state_update: 222814065926471680/Michael Jackson#4266 has joined #KageNation/Radio 1
+[745.2857437133789062] 2018-06-27 18:58:36,330 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 230 in _really_download: Download complete: https://youtube.com/watch?v=hImf920RCGI
+[745.4907674789428711] 2018-06-27 18:58:36,535 - FFMPEG - musicbot.player | In player.py::MainThread(8664), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-hImf920RCGI-Electronic_-_Voia_AgNO3_-_Metamorph.webm
+[745.7322978973388672] 2018-06-27 18:58:36,776 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 434758772771258368
+[750.1953902244567871] 2018-06-27 18:58:41,239 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[750.2023901939392090] 2018-06-27 18:58:41,246 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 434758772771258368
+[750.2623982429504395] 2018-06-27 18:58:41,306 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 196 in _download: Download cached: https://www.youtube.com/watch?v=e-Zcz9J1UOs
+[761.5684065818786621] 2018-06-27 18:58:52,612 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !skip
+[762.2054867744445801] 2018-06-27 18:58:53,249 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for audio_cache\youtube-e-Zcz9J1UOs-Deepthroat.webm
+[762.2064862251281738] 2018-06-27 18:58:53,250 - FFMPEG - musicbot.player | In player.py::MainThread(8664), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-e-Zcz9J1UOs-Deepthroat.webm
+[762.7061767578125000] 2018-06-27 18:58:53,750 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 434758772771258368
+[762.7516815662384033] 2018-06-27 18:58:53,796 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 434758772771258368
+[789.9940574169158936] 2018-06-27 18:59:21,038 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !play bad
+[790.1505768299102783] 2018-06-27 18:59:21,194 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8664), line 2938 in on_voice_state_update: Voice state update for 222814065926471680/Michael Jackson#4266 on #KageNation/Radio 1 -> [LEAVE, DISCONNECT]
+[790.1520783901214600] 2018-06-27 18:59:21,196 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2949 in on_voice_state_update: 222814065926471680/Michael Jackson#4266 has left #KageNation/Radio 1
+[790.4796190261840820] 2018-06-27 18:59:21,523 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:bad', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'bad', 'webpage_url_basename': 'bad', 'extractor_key': 'Generic'}
+[800.7516043186187744] 2018-06-27 18:59:31,795 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for None
+[800.7636091709136963] 2018-06-27 18:59:31,807 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 434758772771258368
+[800.8321127891540527] 2018-06-27 18:59:31,876 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=KcMqUvc-sRU
+[811.1845686435699463] 2018-06-27 18:59:42,228 - INFO - musicbot.entry | In entry.py::MainThread(8664), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=KcMqUvc-sRU
+[846.2348208427429199] 2018-06-27 19:00:17,279 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2734 in on_message: 339301474116829204/Saiko Padorono#6833: !skip
+[846.5378596782684326] 2018-06-27 19:00:17,582 - DEBUG - musicbot.entry | In entry.py::MainThread(8664), line 54 in get_ready_future: Created future for audio_cache\youtube-KcMqUvc-sRU-XXXTENTACION_-_BAD_UNFINISHED_MASTERPIECE_9.webm
+[846.5388591289520264] 2018-06-27 19:00:17,583 - FFMPEG - musicbot.player | In player.py::MainThread(8664), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-KcMqUvc-sRU-XXXTENTACION_-_BAD_UNFINISHED_MASTERPIECE_9.webm
+[846.9506335258483887] 2018-06-27 19:00:17,995 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 434758772771258368
+[847.1306569576263428] 2018-06-27 19:00:18,175 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 825 in serialize_queue: Serializing queue for 434758772771258368
